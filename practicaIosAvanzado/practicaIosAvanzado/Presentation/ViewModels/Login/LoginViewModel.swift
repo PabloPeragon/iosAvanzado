@@ -46,6 +46,7 @@ final class LoginViewModel {
     
     private func doLoginWith(email: String, password: String) {
         //TODO: llamar al caso de uso para hacer la peticion de login y obtener el TOKEN
+        //TODO: Esto es para probar la navegación
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [weak self] in
             self?.loginViewState?(.loaded)
         }

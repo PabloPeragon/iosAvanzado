@@ -60,8 +60,7 @@ class LoginViewController: UIViewController {
     }
     
     @objc func frameKeyboardChanged(notification: Notification) {
-        debugPrint(notification.userInfo)
-        
+        //debugPrint(notification.userInfo)
         let userInfo = notification.userInfo
         let frame = userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect
         let delta = UIScreen.main.bounds.size.height - (frame?.origin.y ?? 0)
