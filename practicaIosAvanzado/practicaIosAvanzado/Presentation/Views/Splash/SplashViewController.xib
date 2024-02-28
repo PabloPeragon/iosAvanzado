@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController" customModule="practicaIosAvanzado" customModuleProvider="target">
             <connections>
+                <outlet property="splashActivityIndicator" destination="XFo-vf-KIH" id="d5h-6C-jKE"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,23 +19,29 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Splash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7r-6S-SQ8">
-                    <rect key="frame" x="170.66666666666666" y="415.66666666666669" width="52" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo2" translatesAutoresizingMaskIntoConstraints="NO" id="JfN-Gs-dKg">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="XFo-vf-KIH">
+                    <rect key="frame" x="178" y="407.66666666666669" width="37" height="37"/>
+                    <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </activityIndicatorView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="j7r-6S-SQ8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="AsV-rx-uBv"/>
-                <constraint firstItem="j7r-6S-SQ8" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="uvI-Ot-1wE"/>
+                <constraint firstItem="JfN-Gs-dKg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="AAm-2S-Sc2"/>
+                <constraint firstItem="XFo-vf-KIH" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="PuG-1N-rwK"/>
+                <constraint firstItem="JfN-Gs-dKg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="YuR-HL-EtT"/>
+                <constraint firstAttribute="bottom" secondItem="JfN-Gs-dKg" secondAttribute="bottom" id="ZqE-Ga-iaB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JfN-Gs-dKg" secondAttribute="trailing" id="Zug-vA-3Xu"/>
+                <constraint firstItem="XFo-vf-KIH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bFO-Qi-1tI"/>
             </constraints>
-            <point key="canvasLocation" x="131" y="-11"/>
+            <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
         </view>
     </objects>
     <resources>
+        <image name="fondo2" width="1080" height="1920"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
