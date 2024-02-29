@@ -12,6 +12,13 @@ final class LoginViewModel {
     //binding con UI
     var loginViewState: ((LoginStatusLoad) -> Void)?
     
+    private let loginUseCase: LoginUseCaseProtocol
+    
+    //Init
+    init(loginUseCase: LoginUseCaseProtocol = LoginUseCase()) {
+        self.loginUseCase = loginUseCase
+    }
+    
     //metodo Login
     func onLoginButton(email: String?, password: String?) {
         loginViewState?(.loading(true))
@@ -45,10 +52,34 @@ final class LoginViewModel {
     }
     
     private func doLoginWith(email: String, password: String) {
-        //TODO: llamar al caso de uso para hacer la peticion de login y obtener el TOKEN
-        //TODO: Esto es para probar la navegación
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [weak self] in
-            self?.loginViewState?(.loaded)
+        loginUseCase.login(user: email, password: password) { [weak self] token in
+            //Codigo por success
+            DispatchQueue.main.async {
+                self?.loginViewState?(.loaded)
+            }
+        } onError: { [weak self] networError in
+            //Codigo por error
+            var errorMessage = "Error Desconocido"
+            DispatchQueue.main.async {
+                switch networError {
+                case .malformedURL:
+                    errorMessage = "malformedURL"
+                case .dataFormating:
+                    errorMessage = "dataFormating"
+                case .orther:
+                    errorMessage = "orther"
+                case .noData:
+                    errorMessage = "noData"
+                case .errorCode(let error):
+                    errorMessage = "errorCode \(error?.description ?? "Unknown")"
+                case .tokenFormatError:
+                    errorMessage = "tokenFormatError"
+                case .decoding:
+                    errorMessage = "decoding"
+                }
+                self?.loginViewState?(.errorNetwork(errorMessage))
+            }
         }
+
     }
 }

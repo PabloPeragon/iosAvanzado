@@ -7,7 +7,13 @@
 
 import Foundation
 
-final class LoginUseCase {
+//MARK: PROTOCOLO LOGIN USE CASE
+protocol LoginUseCaseProtocol {
+    func login(user: String, password: String, onSucces: @escaping (String?) -> Void, onError: @escaping (NetworkError) -> Void)
+}
+
+//MARK: Clase Login Use Case
+final class LoginUseCase: LoginUseCaseProtocol {
     
     func login(user: String, 
                password: String,

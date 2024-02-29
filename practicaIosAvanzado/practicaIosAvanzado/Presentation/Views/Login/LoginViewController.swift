@@ -91,12 +91,23 @@ extension LoginViewController {
             case .showErrorPassword(let error):
                 self?.errorPassword.text = error
                 self?.errorPassword.isHidden = (error == nil || error?.isEmpty == true)
+            case .errorNetwork(let errorMessage):
+                self?.loadingView.isHidden = true
+                self?.showAlert(message: errorMessage)
             }
         }
     }
-    
+    //MARK: Navigate
     private func navigateToHome() {
         let nextVC = HomeTableViewController()
         navigationController?.setViewControllers([nextVC], animated: true)
+    }
+    
+    //MARK: Alert
+    private func showAlert(message: String) {
+        let alertController = UIAlertController(title: "ERROR NETWORK", message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "Aceptar", style: .default, handler: nil)
+        alertController.addAction(okAction)
+        present(alertController, animated: true, completion: nil)
     }
 }
