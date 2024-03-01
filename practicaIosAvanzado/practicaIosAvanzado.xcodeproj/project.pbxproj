@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E2851032B91BDE500E85806 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2851022B91BDE500E85806 /* ApiProvider.swift */; };
+		6E2851042B91BDE500E85806 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2851022B91BDE500E85806 /* ApiProvider.swift */; };
+		6E2851052B91BDE500E85806 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2851022B91BDE500E85806 /* ApiProvider.swift */; };
+		6E2851082B91DE3500E85806 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6E2851072B91DE3500E85806 /* KeychainSwift */; };
+		6E28510A2B91DF8100E85806 /* SecureDataKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2851092B91DF8100E85806 /* SecureDataKeychain.swift */; };
+		6E28510B2B91DF8100E85806 /* SecureDataKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2851092B91DF8100E85806 /* SecureDataKeychain.swift */; };
+		6E28510C2B91DF8100E85806 /* SecureDataKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2851092B91DF8100E85806 /* SecureDataKeychain.swift */; };
 		6E2AF06A2B8F3B8800CB6DDE /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AF0692B8F3B8800CB6DDE /* SplashViewModel.swift */; };
 		6E2AF06B2B8F3B8800CB6DDE /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AF0692B8F3B8800CB6DDE /* SplashViewModel.swift */; };
 		6E2AF06C2B8F3B8800CB6DDE /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AF0692B8F3B8800CB6DDE /* SplashViewModel.swift */; };
@@ -25,12 +32,12 @@
 		6E2AF0802B8F595D00CB6DDE /* LoginStatusLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AF07F2B8F595D00CB6DDE /* LoginStatusLoad.swift */; };
 		6E2AF0812B8F595D00CB6DDE /* LoginStatusLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AF07F2B8F595D00CB6DDE /* LoginStatusLoad.swift */; };
 		6E2AF0822B8F595D00CB6DDE /* LoginStatusLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AF07F2B8F595D00CB6DDE /* LoginStatusLoad.swift */; };
-		6E2AF0862B8F6B3900CB6DDE /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AF0842B8F6B3900CB6DDE /* HomeTableViewController.swift */; };
-		6E2AF0872B8F6B3900CB6DDE /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AF0842B8F6B3900CB6DDE /* HomeTableViewController.swift */; };
-		6E2AF0882B8F6B3900CB6DDE /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AF0842B8F6B3900CB6DDE /* HomeTableViewController.swift */; };
-		6E2AF0892B8F6B3900CB6DDE /* HomeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E2AF0852B8F6B3900CB6DDE /* HomeTableViewController.xib */; };
-		6E2AF08A2B8F6B3900CB6DDE /* HomeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E2AF0852B8F6B3900CB6DDE /* HomeTableViewController.xib */; };
-		6E2AF08B2B8F6B3900CB6DDE /* HomeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E2AF0852B8F6B3900CB6DDE /* HomeTableViewController.xib */; };
+		6E2AF0862B8F6B3900CB6DDE /* HeroesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AF0842B8F6B3900CB6DDE /* HeroesTableViewController.swift */; };
+		6E2AF0872B8F6B3900CB6DDE /* HeroesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AF0842B8F6B3900CB6DDE /* HeroesTableViewController.swift */; };
+		6E2AF0882B8F6B3900CB6DDE /* HeroesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AF0842B8F6B3900CB6DDE /* HeroesTableViewController.swift */; };
+		6E2AF0892B8F6B3900CB6DDE /* HeroesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E2AF0852B8F6B3900CB6DDE /* HeroesTableViewController.xib */; };
+		6E2AF08A2B8F6B3900CB6DDE /* HeroesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E2AF0852B8F6B3900CB6DDE /* HeroesTableViewController.xib */; };
+		6E2AF08B2B8F6B3900CB6DDE /* HeroesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E2AF0852B8F6B3900CB6DDE /* HeroesTableViewController.xib */; };
 		6E7CC29A2B90764B008B4DA6 /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7CC2992B90764B008B4DA6 /* HomeUseCase.swift */; };
 		6E7CC29B2B90764B008B4DA6 /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7CC2992B90764B008B4DA6 /* HomeUseCase.swift */; };
 		6E7CC29C2B90764B008B4DA6 /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7CC2992B90764B008B4DA6 /* HomeUseCase.swift */; };
@@ -85,14 +92,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E2851022B91BDE500E85806 /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
+		6E2851092B91DF8100E85806 /* SecureDataKeychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureDataKeychain.swift; sourceTree = "<group>"; };
 		6E2AF0692B8F3B8800CB6DDE /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		6E2AF06D2B8F3F8000CB6DDE /* SplashStatusLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashStatusLoad.swift; sourceTree = "<group>"; };
 		6E2AF0722B8F46A900CB6DDE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6E2AF0732B8F46A900CB6DDE /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		6E2AF07B2B8F56E300CB6DDE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		6E2AF07F2B8F595D00CB6DDE /* LoginStatusLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStatusLoad.swift; sourceTree = "<group>"; };
-		6E2AF0842B8F6B3900CB6DDE /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
-		6E2AF0852B8F6B3900CB6DDE /* HomeTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewController.xib; sourceTree = "<group>"; };
+		6E2AF0842B8F6B3900CB6DDE /* HeroesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableViewController.swift; sourceTree = "<group>"; };
+		6E2AF0852B8F6B3900CB6DDE /* HeroesTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroesTableViewController.xib; sourceTree = "<group>"; };
 		6E7CC2992B90764B008B4DA6 /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
 		6E7CC29D2B90773C008B4DA6 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
 		6ECEF9DF2B8F1FC600870FE4 /* practicaIosAvanzado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practicaIosAvanzado.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2851082B91DE3500E85806 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,13 +175,13 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		6E2AF0832B8F6AEE00CB6DDE /* Home */ = {
+		6E2AF0832B8F6AEE00CB6DDE /* Heroes */ = {
 			isa = PBXGroup;
 			children = (
-				6E2AF0842B8F6B3900CB6DDE /* HomeTableViewController.swift */,
-				6E2AF0852B8F6B3900CB6DDE /* HomeTableViewController.xib */,
+				6E2AF0842B8F6B3900CB6DDE /* HeroesTableViewController.swift */,
+				6E2AF0852B8F6B3900CB6DDE /* HeroesTableViewController.xib */,
 			);
-			path = Home;
+			path = Heroes;
 			sourceTree = "<group>";
 		};
 		6ECEF9D62B8F1FC600870FE4 = {
@@ -232,6 +242,8 @@
 				6ECEFA1B2B8F221C00870FE4 /* Repository */,
 				6ECEFA1A2B8F220C00870FE4 /* Network */,
 				6ECEFA192B8F220400870FE4 /* Local */,
+				6E2851022B91BDE500E85806 /* ApiProvider.swift */,
+				6E2851092B91DF8100E85806 /* SecureDataKeychain.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -266,7 +278,7 @@
 		6ECEFA162B8F21E600870FE4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6E2AF0832B8F6AEE00CB6DDE /* Home */,
+				6E2AF0832B8F6AEE00CB6DDE /* Heroes */,
 				6E2AF0712B8F45D200CB6DDE /* Login */,
 				6ECEFA1C2B8F23C700870FE4 /* Splash */,
 			);
@@ -350,6 +362,9 @@
 			dependencies = (
 			);
 			name = practicaIosAvanzado;
+			packageProductDependencies = (
+				6E2851072B91DE3500E85806 /* KeychainSwift */,
+			);
 			productName = practicaIosAvanzado;
 			productReference = 6ECEF9DF2B8F1FC600870FE4 /* practicaIosAvanzado.app */;
 			productType = "com.apple.product-type.application";
@@ -422,6 +437,9 @@
 				Base,
 			);
 			mainGroup = 6ECEF9D62B8F1FC600870FE4;
+			packageReferences = (
+				6E2851062B91DE3500E85806 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = 6ECEF9E02B8F1FC600870FE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -438,7 +456,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E2AF0892B8F6B3900CB6DDE /* HomeTableViewController.xib in Resources */,
+				6E2AF0892B8F6B3900CB6DDE /* HeroesTableViewController.xib in Resources */,
 				6E2AF0772B8F46A900CB6DDE /* LoginViewController.xib in Resources */,
 				6ECEF9EF2B8F1FC800870FE4 /* LaunchScreen.storyboard in Resources */,
 				6ECEFA262B8F242000870FE4 /* SplashViewController.xib in Resources */,
@@ -451,7 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E2AF0782B8F46A900CB6DDE /* LoginViewController.xib in Resources */,
-				6E2AF08A2B8F6B3900CB6DDE /* HomeTableViewController.xib in Resources */,
+				6E2AF08A2B8F6B3900CB6DDE /* HeroesTableViewController.xib in Resources */,
 				6ECEFA272B8F242000870FE4 /* SplashViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,7 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E2AF0792B8F46A900CB6DDE /* LoginViewController.xib in Resources */,
-				6E2AF08B2B8F6B3900CB6DDE /* HomeTableViewController.xib in Resources */,
+				6E2AF08B2B8F6B3900CB6DDE /* HeroesTableViewController.xib in Resources */,
 				6ECEFA282B8F242000870FE4 /* SplashViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,14 +499,16 @@
 				6E2AF0802B8F595D00CB6DDE /* LoginStatusLoad.swift in Sources */,
 				6EFDECFE2B8FBE1B00874C2A /* HTTPMethods.swift in Sources */,
 				6EFDED022B8FBEEF00874C2A /* HTTPResponseCodes.swift in Sources */,
-				6E2AF0862B8F6B3900CB6DDE /* HomeTableViewController.swift in Sources */,
+				6E2AF0862B8F6B3900CB6DDE /* HeroesTableViewController.swift in Sources */,
 				6E7CC29E2B90773C008B4DA6 /* HeroModel.swift in Sources */,
+				6E2851032B91BDE500E85806 /* ApiProvider.swift in Sources */,
 				6E7CC29A2B90764B008B4DA6 /* HomeUseCase.swift in Sources */,
 				6E2AF06E2B8F3F8000CB6DDE /* SplashStatusLoad.swift in Sources */,
 				6E2AF07C2B8F56E300CB6DDE /* LoginViewModel.swift in Sources */,
 				6EFDECFA2B8FBD8300874C2A /* NetworkError.swift in Sources */,
 				6EFDECF12B8FBAA500874C2A /* LoginUseCase.swift in Sources */,
 				6EFDECF62B8FBC9A00874C2A /* EndPoints.swift in Sources */,
+				6E28510A2B91DF8100E85806 /* SecureDataKeychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +517,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EFDED032B8FBEEF00874C2A /* HTTPResponseCodes.swift in Sources */,
-				6E2AF0872B8F6B3900CB6DDE /* HomeTableViewController.swift in Sources */,
+				6E2851042B91BDE500E85806 /* ApiProvider.swift in Sources */,
+				6E2AF0872B8F6B3900CB6DDE /* HeroesTableViewController.swift in Sources */,
 				6E2AF06F2B8F3F8000CB6DDE /* SplashStatusLoad.swift in Sources */,
 				6E2AF0812B8F595D00CB6DDE /* LoginStatusLoad.swift in Sources */,
 				6E2AF06B2B8F3B8800CB6DDE /* SplashViewModel.swift in Sources */,
@@ -507,6 +528,7 @@
 				6E7CC29B2B90764B008B4DA6 /* HomeUseCase.swift in Sources */,
 				6EFDECF72B8FBC9A00874C2A /* EndPoints.swift in Sources */,
 				6EFDECFF2B8FBE1B00874C2A /* HTTPMethods.swift in Sources */,
+				6E28510B2B91DF8100E85806 /* SecureDataKeychain.swift in Sources */,
 				6E2AF0752B8F46A900CB6DDE /* LoginViewController.swift in Sources */,
 				6ECEFA242B8F242000870FE4 /* SplashViewController.swift in Sources */,
 				6EFDECF22B8FBAA500874C2A /* LoginUseCase.swift in Sources */,
@@ -526,14 +548,16 @@
 				6E2AF0822B8F595D00CB6DDE /* LoginStatusLoad.swift in Sources */,
 				6EFDED002B8FBE1B00874C2A /* HTTPMethods.swift in Sources */,
 				6EFDED042B8FBEEF00874C2A /* HTTPResponseCodes.swift in Sources */,
-				6E2AF0882B8F6B3900CB6DDE /* HomeTableViewController.swift in Sources */,
+				6E2AF0882B8F6B3900CB6DDE /* HeroesTableViewController.swift in Sources */,
 				6E7CC2A02B90773C008B4DA6 /* HeroModel.swift in Sources */,
+				6E2851052B91BDE500E85806 /* ApiProvider.swift in Sources */,
 				6E7CC29C2B90764B008B4DA6 /* HomeUseCase.swift in Sources */,
 				6E2AF0702B8F3F8000CB6DDE /* SplashStatusLoad.swift in Sources */,
 				6E2AF07E2B8F56E300CB6DDE /* LoginViewModel.swift in Sources */,
 				6EFDECFC2B8FBD8300874C2A /* NetworkError.swift in Sources */,
 				6EFDECF32B8FBAA500874C2A /* LoginUseCase.swift in Sources */,
 				6EFDECF82B8FBC9A00874C2A /* EndPoints.swift in Sources */,
+				6E28510C2B91DF8100E85806 /* SecureDataKeychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -853,6 +877,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E2851062B91DE3500E85806 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 21.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E2851072B91DE3500E85806 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E2851062B91DE3500E85806 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6ECEF9D72B8F1FC600870FE4 /* Project object */;
 }

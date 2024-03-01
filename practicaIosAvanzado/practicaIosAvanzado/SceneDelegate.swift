@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         // Instanciamos Primer view controller
         let splashVC = SplashViewController()
-        // Instaciamos Navigatio
+        // Instaciamos Navigation
         let navigationController = UINavigationController(rootViewController: splashVC)
         
         window.rootViewController = navigationController

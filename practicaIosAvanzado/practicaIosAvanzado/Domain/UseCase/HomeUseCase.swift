@@ -46,7 +46,7 @@ final class HomeUseCase: HomeUseCaseProtocol {
             }
             
             //Check Data
-            guard let Data = data else {
+            guard let data = data else {
                 onError(.noData)
                 return
             }
@@ -58,7 +58,7 @@ final class HomeUseCase: HomeUseCaseProtocol {
                 return
             }
             
-            guard let heroResponse = try? JSONDecoder().decode([HeroModel].self, from: data!) else {
+            guard let heroResponse = try? JSONDecoder().decode([HeroModel].self, from: data) else {
                 onError(.decoding)
                 return
             }
