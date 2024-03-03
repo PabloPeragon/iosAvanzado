@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController" customModule="practicaIosAvanzado" customModuleProvider="target">
             <connections>
-                <outlet property="splashActivityIndicator" destination="XFo-vf-KIH" id="d5h-6C-jKE"/>
+                <outlet property="splashActivityIndicator" destination="XFo-vf-KIH" id="hiM-Gq-eVp"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

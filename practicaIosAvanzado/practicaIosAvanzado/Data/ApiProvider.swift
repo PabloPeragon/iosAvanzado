@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 enum GokuAndFriendsError: Error {
     case parsingData
 }
@@ -65,11 +66,12 @@ class ApiProvider {
         }
         request.setValue("Basic \(data)", forHTTPHeaderField: "Authorization")
         
-        session.dataTask(with: request) { data, response, error in
+        session.dataTask(with: request) { [weak self] data, response, error in
             //TODO: - Gestión de errores
             
             if let data {
                 let token = String(data: data, encoding: .utf8)
+                self?.secureData.setToken(value: token!)
                 completion(.success(true))
             } else {
                 //TODO: - Gestionar que no se reciba data
