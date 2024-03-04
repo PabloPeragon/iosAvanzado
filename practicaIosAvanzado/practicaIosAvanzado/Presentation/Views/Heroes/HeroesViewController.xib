@@ -25,10 +25,10 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPv-Y3-oxP">
-                    <rect key="frame" x="301" y="85" width="78" height="35"/>
+                    <rect key="frame" x="317" y="87" width="50" height="35"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain" title="Logout"/>
+                    <buttonConfiguration key="configuration" style="plain" image="power.circle" catalog="system"/>
                     <connections>
                         <action selector="logoutTapped:" destination="-1" eventType="touchUpInside" id="xuh-ur-7Rf"/>
                     </connections>
@@ -44,6 +44,7 @@
         </view>
     </objects>
     <resources>
+        <image name="power.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
